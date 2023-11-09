@@ -63,14 +63,14 @@ i {
   justify-content: space-evenly;
 }
 .links {
-  margin-top: 40px;
+  margin-top: 50px;
   display: flex;
   justify-content: space-between;
   font-size: 20px;
 }
 .contacts {
   width: 100%;
-  margin-top: 10px;
+  margin-top: 50px;
   font-size: 15px;
 }
 
@@ -84,7 +84,9 @@ i {
 .contact-list li {
   margin-bottom: 10px;
 }
-
+.skills {
+  margin-top: 10px;
+}
 .skills .progress-bar progress {
   width: 85%;
   height: 7px;
@@ -102,6 +104,9 @@ i {
 .skills .progress-bar progress::-webkit-progress-value {
   background-color: rgb(116, 82, 55);
   border-radius: 10px;
+}
+.certifications {
+  margin-top: 20px;
 }
 
 .certification-list {
@@ -139,6 +144,9 @@ i {
 
   word-spacing: 4px;
 }
+.experience {
+  margin-top: 40px;
+}
 .exp-item {
   margin-bottom: 20px;
 }
@@ -175,4 +183,12 @@ i {
   background-color: rgb(252, 244, 235);
   top: 33px;
   left: 130px;
+}
+
+.link-flex {
+  display: flex;
+  justify-content: flex-start;
+}
+.link-flex i {
+  width: 25px;
 }
