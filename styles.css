@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.cdnfonts.com/css/garet");
+body {
+  background-color: rgb(235, 236, 240);
+  font-family: sans-serif;
+}
+h2 {
+  font-size: 27px;
+  /* text-transform: uppercase; */
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+i {
+  margin: 0 7px;
+  color: rgb(116, 82, 55);
+}
+.container {
+  margin: 50px auto;
+  background-color: white;
+  width: 1000px;
+  /* height: 1500px; */
+  padding: 15px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.left-side {
+  width: 30%;
+  /* height: 100%; */
+  background-color: rgb(227, 219, 204);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 500;
+  position: relative;
+}
+
+.img-holder {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 7px solid white;
+  overflow: hidden;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  z-index: 1;
+}
+.img-holder img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.left-details {
+  width: 90%;
+  /* height: 70%; */
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.links {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.contacts {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.contact-list {
+  width: 100%;
+  list-style-type: none;
+  position: relative;
+  /* top: -10px; */
+  left: -35px;
+}
+.contact-list li {
+  margin-bottom: 10px;
+}
+
+.skills .progress-bar progress {
+  width: 85%;
+  height: 7px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+  /* outline: 1px solid rgba(58, 41, 27, 0.829); */
+}
+
+.skills .progress-bar progress::-webkit-progress-bar {
+  background-color: rgba(116, 82, 55, 0.5);
+}
+
+.skills .progress-bar progress::-webkit-progress-value {
+  background-color: rgb(116, 82, 55);
+  border-radius: 10px;
+}
+
+.certification-list {
+  width: 100%;
+  position: relative;
+  left: -30px;
+  list-style: none;
+}
+.certification-list li {
+  margin-bottom: 20px;
+}
+.certifications i {
+  font-size: 10px;
+  margin-right: 10px;
+}
+.right-side {
+  width: 70%;
+  padding: 50px;
+  z-index: 1;
+}
+.right-side h1 {
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+.profile h2 {
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.right-p {
+  font-size: 15px;
+  font-family: "Garet", sans-serif;
+  letter-spacing: 0.5px;
+
+  word-spacing: 4px;
+}
+.exp-item {
+  margin-bottom: 20px;
+}
+
+.exp-item-top {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.exp-item h3,
+.exp-item h4 {
+  margin-bottom: 0;
+  font-weight: 500;
+}
+.exp-item h3 {
+  margin-top: 0px;
+  font-size: 21px;
+}
+.exp-item h4 {
+  margin-top: 7px;
+}
+
+.proj-link {
+  color: rgb(107, 107, 107);
+}
+.proj-link:hover {
+  text-decoration: underline;
+}
+
+.box-color {
+  position: absolute;
+  width: 850px;
+  height: 290px;
+  background-color: rgb(252, 244, 235);
+  top: 33px;
+  left: 130px;
+}
